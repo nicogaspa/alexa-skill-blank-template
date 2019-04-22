@@ -1,0 +1,48 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "cdba6df7bebc6c862cf4f787439be833"
+        },
+        "interactionModel": {
+          "it-IT": {
+            "eTag": "279ab24fa33d03665f728e70718e79ae"
+          },
+          "en-US": {
+            "eTag": "b809ed35bf2a06634b290566f414b48f"
+          },
+          "en-CA": {
+            "eTag": "b809ed35bf2a06634b290566f414b48f"
+          },
+          "en-IN": {
+            "eTag": "b809ed35bf2a06634b290566f414b48f"
+          },
+          "en-AU": {
+            "eTag": "b809ed35bf2a06634b290566f414b48f"
+          },
+          "en-GB": {
+            "eTag": "b809ed35bf2a06634b290566f414b48f"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "",
+            "awsRegion": "eu-west-1",
+            "functionName": "",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "0b80601a-ee6b-4916-88df-2c19da71f7b8",
+            "codeUri": "lambda\\py\\lambda_upload",
+            "handler": "lambda_function.lambda_handler",
+            "runtime": "python3.7"
+          }
+        ]
+      }
+    }
+  }
+}
