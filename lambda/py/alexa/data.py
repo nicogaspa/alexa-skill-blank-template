@@ -13,7 +13,7 @@ _("WELCOME")
 _("WELCOME_BACK")
 # NOTE: message to describe what this skill is able to do and what to ask, terminate with reprompt
 _("HELP")
-# NOTE: goodbye message
+# NOTE: Goodbye message
 _("STOP")
 # NOTE: message for fallback intent
 _("FALLBACK")

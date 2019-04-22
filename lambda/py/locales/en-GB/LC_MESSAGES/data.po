@@ -1,0 +1,62 @@
+# English (United States) translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-04-10 23:33+0200\n"
+"PO-Revision-Date: 2019-04-07 13:34+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_GB\n"
+"Language-Team: en_US <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. NOTE: skill name, always Wall Street
+msgid "SKILL_NAME"
+msgstr "<lang xml:lang='en-US'>Skill Name</lang>"
+
+#. NOTE: invocation name, different for en locales
+msgid "INVOCATION_NAME"
+msgstr "<lang xml:lang='en-US'>Skill Name</lang>"
+
+#. NOTE: welcome message for first time invocation
+msgid "WELCOME"
+msgstr ""
+"Welcome to {skill_name}!\n"
+"How can I help?"
+
+#. NOTE: welcome message standard
+msgid "WELCOME_BACK"
+msgstr ""
+"Welcome back to {skill_name}!\n"
+"How can I help?"
+
+#. NOTE: message to describe what this skill is able to do and what to ask, terminate with reprompt
+msgid "HELP"
+msgstr ""
+"You can ask me something.\n"
+"You can also ask me something else\n"
+"How can I help?"
+
+#. NOTE: Goodbye message
+msgid "STOP"
+msgstr "Goodbye!"
+
+#. NOTE: message for fallback intent
+msgid "FALLBACK"
+msgstr "I'm sorry, this skill can't help you with that"
+
+#. NOTE: error message for exception handler
+msgid "ERROR"
+msgstr "Something went wrong"
+
+#. NOTE: title of the card returned when an error occurs
+msgid "ERROR_CARD_TITLE"
+msgstr "Ouch"
