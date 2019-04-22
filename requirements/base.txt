@@ -1,0 +1,6 @@
+# These requirements must implement every requirement specified in skill.txt in order to use it locally
+
+-r skill.txt
+
+ipdb
+boto3  # does not need to be in skill requirements since it's already included in lambda standard libraries
