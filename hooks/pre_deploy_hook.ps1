@@ -9,6 +9,7 @@
 
 # The script does the following:
 #  - Create a temporary 'lambda_upload' directories under each SOURCE_DIR folder
+#  - Manage localization and translations
 #  - Copy the contents of '<SKILL_NAME>/SOURCE_DIR' folder into '<SKILL_NAME>/SOURCE_DIR/lambda_upload'
 #  - Copy the contents of site packages in $VIRTUALENV created in <SKILL_NAME>/.venv/ folder
 #  - Update the location of this 'lambda_upload' folder to skill.json for zip and upload
